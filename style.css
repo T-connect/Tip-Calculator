@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    background-image: url("image/pink2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    ;
+}
+
+.container-fluid{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100vh;
+}
+
+.form-container{
+    width: 300px;
+    height: max-content;
+    background-color: hsl(182, 70%, 58%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.header{
+    background-color: black;
+    color: white;
+    border-radius: 20px 20px 0px 0px;
+}
+
+
+
+.container{
+    height: 100vh;
+}
+#tithe{
+    background-color: white;
+    color: hsl(0, 0%, 0%);
+    height: 80px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#income{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-weight: 500;
+    color: hsl(0, 0%, 0%);
+}
+
+.btn{
+    width: 100px;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+.btn-secondary{
+    margin-right: 10px;
+    background-color: rgb(100, 97, 97);
+}
+
